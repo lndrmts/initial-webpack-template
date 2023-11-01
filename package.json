@@ -1,0 +1,50 @@
+{
+  "name": "initial-webpack-template",
+  "version": "1.0.0",
+  "description": "Template de inicio rápido para desenvolvimento de sites com webpack",
+  "main": "index.js",
+  "author": "engine.ag",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack --config assets/webpack/webpack.config.dev.js --mode development",
+    "build": "webpack --config assets/webpack/webpack.config.prod.js --mode production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "cache-loader": "^4.1.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^5.0.1",
+    "expose-loader": "^4.1.0",
+    "file-loader": "^6.2.0",
+    "image-minimizer-webpack-plugin": "^3.8.3",
+    "image-webpack-loader": "^8.1.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webp-webpack-plugin": "^3.3.6",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webfonts-loader": "^8.0.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-manifest-plugin": "^5.0.0"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "swiper": "^11.0.3"
+  }
+}

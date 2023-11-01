@@ -1,0 +1,97 @@
+# Cache #
+###################
+*.cache
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.tar
+*.wpress
+*.zip
+
+# Logs #
+######################
+*.log
+
+# Backups #
+###########
+*.bak
+*.old
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Other #
+#########
+*App_Data*
+*aspnet_client*
+*error_log
+*access_log
+*.sass-cache
+*.idea*
+*.buildpath
+.buildpath
+*.project
+.project
+*nbproject*
+*.settings*
+*.lnk
+*.user.ini
+*.url
+*~
+*backwpup_log_*.html
+.picasa.ini
+*.sublime
+*.sublime*
+*.svn*
+.listing
+/.admin
+.vscode/
+*.map
+
+# NGINX & ENV #
+#####################
+/nginx.conf
+/.env
+
+# Composer #
+#####################
+/vendor
+/composer.lock
+
+# Node #
+#####################
+/node_modules
+/yarn.lock
+/package-lock.json
+
+# WP #
+#####################
+/wp-config-sample.php
+/config.json
+/environments.json
+/environment.json
+/init
+
+# Docker #
+#####################
+/docker-compose.yml
+
+# Certificates #
+#####################
+certs/
+
+# Prototype #
+/prototype
