@@ -84,6 +84,7 @@ Thumbs.db
 /environments.json
 /environment.json
 /init
+/dist
 
 # Docker #
 #####################
